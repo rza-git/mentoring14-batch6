@@ -1,0 +1,54 @@
+FINAL PROJECT
+
+Sabtu, 27 April
+
+- Pembagian Grup
+- Pembagian Tema (including requirement)
+- Slide guidance final project
+
+
+- Buat API Documentation (recommended POSTMAN) => selama final project
+
+STAGE 1 (one week)
+
+    - Design UI Mockup
+    - DESIGN UX FLOW
+    - DESIGN ERD (sebelum bertemu mentor,  90% selesai)
+    - Disarankan tidak ngoding dulu
+    - Menentukan ORM (sequelize, prisma)
+    - Bikin akun postman (gmail baru), khusus 1 tim
+
+
+    - Mulai ngoding di weekend akhir
+    
+    - Setup Organization + Repo github (hanya boleh 1 orang) 
+
+STAGE 2 (one week) --> BACKEND
+
+    - Design Pattern MVC + Services
+    - Kalian harus kelar dalam seminggu (RECOMMENDED !!!!)
+    - Express JS
+
+STAGE 3 (one week)
+
+    - Setup Next JS
+    - Pilih salah satu CSS framework (tailwind, antd, dst...)
+    - Slicing UI
+    - Consume API Backend
+
+
+STAGE 4 (one week)
+
+    - Unit Testing (TDD)
+    - Siapin presentasi
+    - 90% sudah selesai
+    - Demo presentasi (Tutorial)
+
+
+Final week
+
+    - Minor Bugfixing
+    - Deploy (Optional)
+    - Docker (Optional)
+    - 99% - 100% harus sudah selesai
+    - Final Presentation
