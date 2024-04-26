@@ -25,6 +25,7 @@ const TodoList = ({todos}) => {
                         <th>No</th>
                         <th>Title</th>
                         <th>Description</th>
+                        <th>Image URL</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -35,6 +36,7 @@ const TodoList = ({todos}) => {
                                 <td>{idx+1}</td>
                                 <td>{todo.title}</td>
                                 <td>{todo.description}</td>
+                                <td><a href={todo.imageUrl}>{todo.imageUrl}</a></td>
                                 <td><button type="button" onClick={(e) => handleDelete(todo.id)}>DELETE</button></td>
                             </tr>
                         )

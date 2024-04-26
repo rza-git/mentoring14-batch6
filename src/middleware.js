@@ -25,5 +25,5 @@ export function middleware(request) {
 
 // matcher: ["/login", "/api/:function*", "/todos/:function*", "/"]
 export const config = {
-    matcher: ["/login", "/api/:function*", "/"]
+    matcher: ["/login", "/api/:function*", "/", "/todos/:function*", "/api/todos/uploads"]
 }

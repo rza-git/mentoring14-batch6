@@ -18,13 +18,10 @@ export const POST = async (req, {params}) => {
     try {   
 
         // Parsing json dari client
-        const {title, description} = await req.json();
-
+        const data = await req.json();
+        console.log(data)
         await prisma.todo.create({
-            data: {
-                title,
-                description
-            }
+            data
         })
         
         return NextResponse.json({message: "Todo created successful"})
