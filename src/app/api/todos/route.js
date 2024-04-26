@@ -19,7 +19,6 @@ export const POST = async (req, {params}) => {
 
         // Parsing json dari client
         const data = await req.json();
-        console.log(data)
         await prisma.todo.create({
             data
         })
